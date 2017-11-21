@@ -51,6 +51,7 @@ class Utility
             'rangeStart'    => $items[0],
             'rangeEnd'      => $items[1]
         );
-        return json_encode($response,JSON_PRETTY_PRINT);
+        //return json_encode($response,JSON_PRETTY_PRINT);
+        return json_encode($response);
     }
 }
