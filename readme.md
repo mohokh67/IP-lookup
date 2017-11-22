@@ -34,8 +34,11 @@ composer dump-autoload -o
 Once you pull all the required packages with **composer**, then you can use **phpunit** to run all the tests. Run **phpunit** from command line when you are in the project directory. Make sure the **phpunit** is in the **PATH**
 ```
 cd to-the-project-root
-phpunit
+vendor/bin/phpunit
 ```
+
+Finally to check the visual reports about the phpunit, hit this URL: `http://localhost/project-name/reports`
+
 
 ### Extra
 

@@ -1,0 +1,3871 @@
+version: 1
+creator: xdebug 2.5.4 (PHP 7.1.1-dev)
+cmd: C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\index.php
+part: 1
+positions: line
+
+events: Time
+
+fl=(1) php:internal
+fn=(1) php::ini_set
+2 32
+
+fl=(1)
+fn=(2) php::define
+3 2
+
+fl=(2) C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\config\config.php
+fn=(3) require_once::C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\config\config.php
+1 61
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+3 2
+
+fl=(3) C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\vendor\composer\autoload_real.php
+fn=(4) require_once::C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\vendor\composer\autoload_real.php
+1 3
+
+fl=(1)
+fn=(5) php::spl_autoload_register
+22 10
+
+fl=(4) C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\vendor\composer\ClassLoader.php
+fn=(6) require::C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\vendor\composer\ClassLoader.php
+1 5
+
+fl=(3)
+fn=(7) ComposerAutoloaderInit1c1e78645ff03b65fb88a8fbcbe1b85e::loadClassLoader
+9 1382
+cfl=(4)
+cfn=(6)
+calls=1 0 0
+12 5
+
+fl=(1)
+fn=(8) php::spl_autoload_call
+23 498
+cfl=(3)
+cfn=(7)
+calls=1 0 0
+23 1387
+
+fl=(1)
+fn=(9) php::{zend_pass}
+23 0
+
+fl=(1)
+fn=(10) php::spl_autoload_unregister
+24 5
+
+fl=(1)
+fn=(11) php::function_exists
+26 0
+
+fl=(5) C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\vendor\composer\autoload_static.php
+fn=(12) require_once::C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\vendor\composer\autoload_static.php
+1 3
+
+fl=(1)
+fn=(13) php::Closure::bind
+939 1
+
+fl=(5)
+fn=(14) Composer\Autoload\ComposerStaticInit1c1e78645ff03b65fb88a8fbcbe1b85e::getInitializer
+931 20
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+939 1
+
+fl=(5)
+fn=(15) Composer\Autoload\ClassLoader::Composer\Autoload\{closure}
+933 3
+
+fl=(1)
+fn=(5)
+302 3
+
+fl=(4)
+fn=(16) Composer\Autoload\ClassLoader->register
+300 15
+cfl=(1)
+cfn=(5)
+calls=1 0 0
+302 3
+
+fl=(6) C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\vendor\myclabs\deep-copy\src\DeepCopy\deep_copy.php
+fn=(17) require::C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\vendor\myclabs\deep-copy\src\DeepCopy\deep_copy.php
+1 0
+
+fl=(3)
+fn=(18) composerRequire1c1e78645ff03b65fb88a8fbcbe1b85e
+63 245
+cfl=(6)
+cfn=(17)
+calls=1 0 0
+66 0
+
+fl=(1)
+fn=(11)
+5 0
+
+fl=(7) C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\vendor\nikic\fast-route\src\functions.php
+fn=(19) require::C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\vendor\nikic\fast-route\src\functions.php
+1 20
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+5 0
+
+fl=(3)
+fn=(18)
+63 242
+cfl=(7)
+cfn=(19)
+calls=1 0 0
+66 20
+
+fl=(3)
+fn=(20) ComposerAutoloaderInit1c1e78645ff03b65fb88a8fbcbe1b85e::getLoader
+16 5223
+cfl=(1)
+cfn=(5)
+calls=1 0 0
+22 10
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+23 1885
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+23 0
+cfl=(1)
+cfn=(10)
+calls=1 0 0
+24 5
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+26 0
+cfl=(5)
+cfn=(12)
+calls=1 0 0
+28 3
+cfl=(5)
+cfn=(14)
+calls=1 0 0
+30 21
+cfl=(5)
+cfn=(15)
+calls=1 0 0
+30 3
+cfl=(4)
+cfn=(16)
+calls=1 0 0
+48 18
+cfl=(3)
+cfn=(18)
+calls=1 0 0
+56 246
+cfl=(3)
+cfn=(18)
+calls=1 0 0
+56 263
+
+fl=(8) C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\vendor\autoload.php
+fn=(21) require_once::C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\vendor\autoload.php
+1 717
+cfl=(3)
+cfn=(4)
+calls=1 0 0
+5 3
+cfl=(3)
+cfn=(20)
+calls=1 0 0
+7 7681
+
+fl=(9) C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\bootstrap\autoload.php
+fn=(22) require::C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\bootstrap\autoload.php
+1 953
+cfl=(2)
+cfn=(3)
+calls=1 0 0
+4 64
+cfl=(8)
+cfn=(21)
+calls=1 0 0
+5 8401
+
+fl=(4)
+fn=(23) Composer\Autoload\ClassLoader->findFile
+335 2
+
+fl=(10) C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\app\Http\Controllers\Utility.php
+fn=(24) include::C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\app\Http\Controllers\Utility.php
+1 1
+
+fl=(4)
+fn=(25) Composer\Autoload\includeFile
+442 339
+cfl=(10)
+cfn=(24)
+calls=1 0 0
+444 1
+
+fl=(4)
+fn=(26) Composer\Autoload\ClassLoader->loadClass
+319 39
+cfl=(4)
+cfn=(23)
+calls=1 0 0
+321 2
+cfl=(4)
+cfn=(25)
+calls=1 0 0
+322 341
+
+fl=(1)
+fn=(8)
+10 30
+cfl=(4)
+cfn=(26)
+calls=1 0 0
+10 382
+
+fl=(1)
+fn=(9)
+10 0
+
+fl=(4)
+fn=(23)
+335 0
+
+fl=(11) C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\app\CSVDatabase.php
+fn=(27) include::C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\app\CSVDatabase.php
+1 0
+
+fl=(4)
+fn=(25)
+442 287
+cfl=(11)
+cfn=(27)
+calls=1 0 0
+444 0
+
+fl=(4)
+fn=(26)
+319 97
+cfl=(4)
+cfn=(23)
+calls=1 0 0
+321 0
+cfl=(4)
+cfn=(25)
+calls=1 0 0
+322 288
+
+fl=(1)
+fn=(8)
+11 30
+cfl=(4)
+cfn=(26)
+calls=1 0 0
+11 386
+
+fl=(1)
+fn=(9)
+11 0
+
+fl=(4)
+fn=(23)
+335 1
+
+fl=(12) C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\app\Http\Controllers\IPController.php
+fn=(28) include::C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\app\Http\Controllers\IPController.php
+1 1
+
+fl=(4)
+fn=(25)
+442 453
+cfl=(12)
+cfn=(28)
+calls=1 0 0
+444 1
+
+fl=(4)
+fn=(26)
+319 47
+cfl=(4)
+cfn=(23)
+calls=1 0 0
+321 1
+cfl=(4)
+cfn=(25)
+calls=1 0 0
+322 454
+
+fl=(1)
+fn=(8)
+12 28
+cfl=(4)
+cfn=(26)
+calls=1 0 0
+12 504
+
+fl=(12)
+fn=(29) App\Http\Controllers\IPController->__construct
+21 3
+
+fl=(12)
+fn=(29)
+21 2
+
+fl=(12)
+fn=(30) App\Http\Controllers\IPController->setIP
+32 0
+
+fl=(1)
+fn=(31) php::inet_pton
+53 1
+
+fl=(12)
+fn=(32) App\Http\Controllers\IPController->validate
+51 15
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 1
+
+fl=(1)
+fn=(33) php::SplFileObject->__construct
+19 159
+
+fl=(11)
+fn=(34) App\CSVDatabase->connect
+17 22
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 159
+
+fl=(1)
+fn=(35) php::SplFileObject->seek
+13 799926
+
+fl=(1)
+fn=(36) php::SplFileObject->current
+14 0
+
+fl=(1)
+fn=(37) php::trim
+14 1
+
+fl=(11)
+fn=(38) App\CSVDatabase->find
+10 90
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 182
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 799926
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 1
+
+fl=(1)
+fn=(39) php::explode
+29 0
+
+fl=(1)
+fn=(37)
+31 0
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40) App\Http\Controllers\Utility->parseLine
+26 39
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 3
+
+fl=(12)
+fn=(32)
+51 11
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 3
+
+fl=(1)
+fn=(41) php::filter_var
+153 1
+
+fl=(12)
+fn=(42) App\Http\Controllers\IPController->whichIP
+149 30
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 15
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 1
+
+fl=(1)
+fn=(43) php::ip2long
+100 0
+
+fl=(1)
+fn=(43)
+101 0
+
+fl=(1)
+fn=(43)
+102 0
+
+fl=(12)
+fn=(44) App\Http\Controllers\IPController->inRange
+94 52
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 47
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 0
+
+fl=(1)
+fn=(33)
+19 138
+
+fl=(11)
+fn=(34)
+17 109
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 138
+
+fl=(1)
+fn=(35)
+13 411947
+
+fl=(1)
+fn=(36)
+14 0
+
+fl=(1)
+fn=(37)
+14 0
+
+fl=(11)
+fn=(38)
+10 87
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 248
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 411947
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 0
+
+fl=(1)
+fn=(39)
+29 1
+
+fl=(1)
+fn=(37)
+31 0
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40)
+26 37
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 1
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 2
+
+fl=(12)
+fn=(32)
+51 13
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 2
+
+fl=(1)
+fn=(41)
+153 1
+
+fl=(12)
+fn=(42)
+149 30
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 15
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 1
+
+fl=(1)
+fn=(43)
+100 0
+
+fl=(1)
+fn=(43)
+101 0
+
+fl=(1)
+fn=(43)
+102 0
+
+fl=(12)
+fn=(44)
+94 52
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 47
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 0
+
+fl=(1)
+fn=(33)
+19 113
+
+fl=(11)
+fn=(34)
+17 71
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 113
+
+fl=(1)
+fn=(35)
+13 218498
+
+fl=(1)
+fn=(36)
+14 0
+
+fl=(1)
+fn=(37)
+14 0
+
+fl=(11)
+fn=(38)
+10 87
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 185
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 218498
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 0
+
+fl=(1)
+fn=(39)
+29 0
+
+fl=(1)
+fn=(37)
+31 0
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40)
+26 39
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 1
+
+fl=(12)
+fn=(32)
+51 14
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 1
+
+fl=(1)
+fn=(41)
+153 2
+
+fl=(12)
+fn=(42)
+149 30
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 15
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 2
+
+fl=(1)
+fn=(43)
+100 0
+
+fl=(1)
+fn=(43)
+101 0
+
+fl=(1)
+fn=(43)
+102 0
+
+fl=(12)
+fn=(44)
+94 51
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 48
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 0
+
+fl=(1)
+fn=(33)
+19 145
+
+fl=(11)
+fn=(34)
+17 116
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 145
+
+fl=(1)
+fn=(35)
+13 132405
+
+fl=(1)
+fn=(36)
+14 0
+
+fl=(1)
+fn=(37)
+14 1
+
+fl=(11)
+fn=(38)
+10 85
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 262
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 132405
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 1
+
+fl=(1)
+fn=(39)
+29 0
+
+fl=(1)
+fn=(37)
+31 1
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40)
+26 36
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 1
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 3
+
+fl=(12)
+fn=(32)
+51 12
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 3
+
+fl=(1)
+fn=(41)
+153 1
+
+fl=(12)
+fn=(42)
+149 29
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 15
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 1
+
+fl=(1)
+fn=(43)
+100 0
+
+fl=(1)
+fn=(43)
+101 0
+
+fl=(1)
+fn=(43)
+102 0
+
+fl=(12)
+fn=(44)
+94 51
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 46
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 0
+
+fl=(1)
+fn=(33)
+19 138
+
+fl=(11)
+fn=(34)
+17 113
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 138
+
+fl=(1)
+fn=(35)
+13 53310
+
+fl=(1)
+fn=(36)
+14 0
+
+fl=(1)
+fn=(37)
+14 0
+
+fl=(11)
+fn=(38)
+10 114
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 252
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 53310
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 0
+
+fl=(1)
+fn=(39)
+29 0
+
+fl=(1)
+fn=(37)
+31 1
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40)
+26 37
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 1
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 2
+
+fl=(12)
+fn=(32)
+51 14
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 2
+
+fl=(1)
+fn=(41)
+153 1
+
+fl=(12)
+fn=(42)
+149 27
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 17
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 1
+
+fl=(1)
+fn=(43)
+100 0
+
+fl=(1)
+fn=(43)
+101 0
+
+fl=(1)
+fn=(43)
+102 0
+
+fl=(12)
+fn=(44)
+94 52
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 46
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 0
+
+fl=(1)
+fn=(33)
+19 172
+
+fl=(11)
+fn=(34)
+17 133
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 172
+
+fl=(1)
+fn=(35)
+13 27132
+
+fl=(1)
+fn=(36)
+14 0
+
+fl=(1)
+fn=(37)
+14 0
+
+fl=(11)
+fn=(38)
+10 98
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 305
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 27132
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 0
+
+fl=(1)
+fn=(39)
+29 2
+
+fl=(1)
+fn=(37)
+31 0
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40)
+26 35
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 2
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 3
+
+fl=(12)
+fn=(32)
+51 11
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 3
+
+fl=(1)
+fn=(41)
+153 1
+
+fl=(12)
+fn=(42)
+149 28
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 15
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 1
+
+fl=(1)
+fn=(43)
+100 0
+
+fl=(1)
+fn=(43)
+101 0
+
+fl=(1)
+fn=(43)
+102 0
+
+fl=(12)
+fn=(44)
+94 48
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 45
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 0
+
+fl=(1)
+fn=(33)
+19 244
+
+fl=(11)
+fn=(34)
+17 147
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 244
+
+fl=(1)
+fn=(35)
+13 14158
+
+fl=(1)
+fn=(36)
+14 0
+
+fl=(1)
+fn=(37)
+14 0
+
+fl=(11)
+fn=(38)
+10 97
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 391
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 14158
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 0
+
+fl=(1)
+fn=(39)
+29 1
+
+fl=(1)
+fn=(37)
+31 0
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40)
+26 38
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 1
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 1
+
+fl=(12)
+fn=(32)
+51 17
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 1
+
+fl=(1)
+fn=(41)
+153 0
+
+fl=(12)
+fn=(42)
+149 29
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 19
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 0
+
+fl=(1)
+fn=(43)
+100 0
+
+fl=(1)
+fn=(43)
+101 0
+
+fl=(1)
+fn=(43)
+102 0
+
+fl=(12)
+fn=(44)
+94 51
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 49
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 0
+
+fl=(1)
+fn=(33)
+19 143
+
+fl=(11)
+fn=(34)
+17 114
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 143
+
+fl=(1)
+fn=(35)
+13 5964
+
+fl=(1)
+fn=(36)
+14 0
+
+fl=(1)
+fn=(37)
+14 0
+
+fl=(11)
+fn=(38)
+10 87
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 257
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 5964
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 0
+
+fl=(1)
+fn=(39)
+29 2
+
+fl=(1)
+fn=(37)
+31 0
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40)
+26 186
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 2
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 3
+
+fl=(12)
+fn=(32)
+51 16
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 3
+
+fl=(1)
+fn=(41)
+153 19
+
+fl=(12)
+fn=(42)
+149 41
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 20
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 19
+
+fl=(1)
+fn=(43)
+100 0
+
+fl=(1)
+fn=(43)
+101 0
+
+fl=(1)
+fn=(43)
+102 0
+
+fl=(12)
+fn=(44)
+94 73
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 80
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 0
+
+fl=(1)
+fn=(33)
+19 347
+
+fl=(11)
+fn=(34)
+17 304
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 347
+
+fl=(1)
+fn=(35)
+13 9993
+
+fl=(1)
+fn=(36)
+14 0
+
+fl=(1)
+fn=(37)
+14 0
+
+fl=(11)
+fn=(38)
+10 143
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 652
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 9993
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 0
+
+fl=(1)
+fn=(39)
+29 0
+
+fl=(1)
+fn=(37)
+31 0
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40)
+26 36
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 2
+
+fl=(12)
+fn=(32)
+51 13
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 2
+
+fl=(1)
+fn=(41)
+153 1
+
+fl=(12)
+fn=(42)
+149 27
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 15
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 1
+
+fl=(1)
+fn=(43)
+100 0
+
+fl=(1)
+fn=(43)
+101 0
+
+fl=(1)
+fn=(43)
+102 0
+
+fl=(12)
+fn=(44)
+94 50
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 45
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 0
+
+fl=(1)
+fn=(33)
+19 137
+
+fl=(11)
+fn=(34)
+17 115
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 137
+
+fl=(1)
+fn=(35)
+13 10711
+
+fl=(1)
+fn=(36)
+14 0
+
+fl=(1)
+fn=(37)
+14 0
+
+fl=(11)
+fn=(38)
+10 101
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 252
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 10711
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 0
+
+fl=(1)
+fn=(39)
+29 2
+
+fl=(1)
+fn=(37)
+31 1
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40)
+26 41
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 2
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 1
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 3
+
+fl=(12)
+fn=(32)
+51 15
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 3
+
+fl=(1)
+fn=(41)
+153 2
+
+fl=(12)
+fn=(42)
+149 30
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 19
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 2
+
+fl=(1)
+fn=(43)
+100 1
+
+fl=(1)
+fn=(43)
+101 0
+
+fl=(1)
+fn=(43)
+102 0
+
+fl=(12)
+fn=(44)
+94 76
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 51
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 1
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 0
+
+fl=(1)
+fn=(33)
+19 202
+
+fl=(11)
+fn=(34)
+17 128
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 202
+
+fl=(1)
+fn=(35)
+13 11018
+
+fl=(1)
+fn=(36)
+14 0
+
+fl=(1)
+fn=(37)
+14 0
+
+fl=(11)
+fn=(38)
+10 128
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 330
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 11018
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 0
+
+fl=(1)
+fn=(39)
+29 1
+
+fl=(1)
+fn=(37)
+31 0
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40)
+26 35
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 1
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 1
+
+fl=(12)
+fn=(32)
+51 17
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 1
+
+fl=(1)
+fn=(41)
+153 1
+
+fl=(12)
+fn=(42)
+149 28
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 19
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 1
+
+fl=(1)
+fn=(43)
+100 0
+
+fl=(1)
+fn=(43)
+101 0
+
+fl=(1)
+fn=(43)
+102 0
+
+fl=(12)
+fn=(44)
+94 54
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 49
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 0
+
+fl=(1)
+fn=(33)
+19 135
+
+fl=(11)
+fn=(34)
+17 111
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 135
+
+fl=(1)
+fn=(35)
+13 11755
+
+fl=(1)
+fn=(36)
+14 0
+
+fl=(1)
+fn=(37)
+14 0
+
+fl=(11)
+fn=(38)
+10 84
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 247
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 11755
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 0
+
+fl=(1)
+fn=(39)
+29 1
+
+fl=(1)
+fn=(37)
+31 0
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40)
+26 35
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 1
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 1
+
+fl=(12)
+fn=(32)
+51 13
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 1
+
+fl=(1)
+fn=(41)
+153 1
+
+fl=(12)
+fn=(42)
+149 27
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 15
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 1
+
+fl=(1)
+fn=(43)
+100 0
+
+fl=(1)
+fn=(43)
+101 0
+
+fl=(1)
+fn=(43)
+102 0
+
+fl=(12)
+fn=(44)
+94 51
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 44
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 0
+
+fl=(1)
+fn=(33)
+19 187
+
+fl=(11)
+fn=(34)
+17 122
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 187
+
+fl=(1)
+fn=(35)
+13 11147
+
+fl=(1)
+fn=(36)
+14 0
+
+fl=(1)
+fn=(37)
+14 0
+
+fl=(11)
+fn=(38)
+10 88
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 309
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 11147
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 0
+
+fl=(1)
+fn=(39)
+29 1
+
+fl=(1)
+fn=(37)
+31 0
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40)
+26 35
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 1
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 1
+
+fl=(12)
+fn=(32)
+51 13
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 1
+
+fl=(1)
+fn=(41)
+153 2
+
+fl=(12)
+fn=(42)
+149 28
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 15
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 2
+
+fl=(1)
+fn=(43)
+100 0
+
+fl=(1)
+fn=(43)
+101 0
+
+fl=(1)
+fn=(43)
+102 0
+
+fl=(12)
+fn=(44)
+94 50
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 46
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 0
+
+fl=(1)
+fn=(33)
+19 135
+
+fl=(11)
+fn=(34)
+17 113
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 135
+
+fl=(1)
+fn=(35)
+13 10204
+
+fl=(1)
+fn=(36)
+14 0
+
+fl=(1)
+fn=(37)
+14 0
+
+fl=(11)
+fn=(38)
+10 72
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 248
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 10204
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 0
+
+fl=(1)
+fn=(39)
+29 0
+
+fl=(1)
+fn=(37)
+31 0
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40)
+26 37
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 1
+
+fl=(12)
+fn=(32)
+51 13
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 1
+
+fl=(1)
+fn=(41)
+153 1
+
+fl=(12)
+fn=(42)
+149 26
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 15
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 1
+
+fl=(1)
+fn=(43)
+100 0
+
+fl=(1)
+fn=(43)
+101 0
+
+fl=(1)
+fn=(43)
+102 0
+
+fl=(12)
+fn=(44)
+94 50
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 43
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 0
+
+fl=(1)
+fn=(33)
+19 107
+
+fl=(11)
+fn=(34)
+17 104
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 107
+
+fl=(1)
+fn=(35)
+13 12041
+
+fl=(1)
+fn=(36)
+14 0
+
+fl=(1)
+fn=(37)
+14 1
+
+fl=(11)
+fn=(38)
+10 83
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 211
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 12041
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 1
+
+fl=(1)
+fn=(39)
+29 1
+
+fl=(1)
+fn=(37)
+31 0
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40)
+26 36
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 1
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 1
+
+fl=(12)
+fn=(32)
+51 14
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 1
+
+fl=(1)
+fn=(41)
+153 1
+
+fl=(12)
+fn=(42)
+149 26
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 15
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 1
+
+fl=(1)
+fn=(43)
+100 0
+
+fl=(1)
+fn=(43)
+101 0
+
+fl=(1)
+fn=(43)
+102 0
+
+fl=(12)
+fn=(44)
+94 50
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 44
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 0
+
+fl=(1)
+fn=(33)
+19 156
+
+fl=(11)
+fn=(34)
+17 113
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 156
+
+fl=(1)
+fn=(35)
+13 11145
+
+fl=(1)
+fn=(36)
+14 1
+
+fl=(1)
+fn=(37)
+14 0
+
+fl=(11)
+fn=(38)
+10 88
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 270
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 11145
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 1
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 0
+
+fl=(1)
+fn=(39)
+29 0
+
+fl=(1)
+fn=(37)
+31 0
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40)
+26 37
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 1
+
+fl=(12)
+fn=(32)
+51 32
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 1
+
+fl=(1)
+fn=(41)
+153 1
+
+fl=(12)
+fn=(42)
+149 30
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 34
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 1
+
+fl=(1)
+fn=(43)
+100 0
+
+fl=(1)
+fn=(43)
+101 0
+
+fl=(1)
+fn=(43)
+102 0
+
+fl=(12)
+fn=(44)
+94 52
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 66
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 0
+
+fl=(1)
+fn=(33)
+19 141
+
+fl=(11)
+fn=(34)
+17 113
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 141
+
+fl=(1)
+fn=(35)
+13 11708
+
+fl=(1)
+fn=(36)
+14 0
+
+fl=(1)
+fn=(37)
+14 0
+
+fl=(11)
+fn=(38)
+10 91
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 255
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 11708
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 0
+
+fl=(1)
+fn=(39)
+29 2
+
+fl=(1)
+fn=(37)
+31 0
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40)
+26 37
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 2
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 5
+
+fl=(12)
+fn=(32)
+51 13
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 5
+
+fl=(1)
+fn=(41)
+153 3
+
+fl=(12)
+fn=(42)
+149 29
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 19
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 3
+
+fl=(1)
+fn=(43)
+100 0
+
+fl=(1)
+fn=(43)
+101 0
+
+fl=(1)
+fn=(43)
+102 1
+
+fl=(12)
+fn=(44)
+94 51
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 51
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 1
+
+fl=(1)
+fn=(33)
+19 174
+
+fl=(11)
+fn=(34)
+17 122
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 174
+
+fl=(1)
+fn=(35)
+13 10342
+
+fl=(1)
+fn=(36)
+14 0
+
+fl=(1)
+fn=(37)
+14 0
+
+fl=(11)
+fn=(38)
+10 80
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 296
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 10342
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 0
+
+fl=(1)
+fn=(39)
+29 1
+
+fl=(1)
+fn=(37)
+31 0
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40)
+26 36
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 1
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 1
+
+fl=(12)
+fn=(32)
+51 13
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 1
+
+fl=(1)
+fn=(41)
+153 1
+
+fl=(12)
+fn=(42)
+149 26
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 15
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 1
+
+fl=(1)
+fn=(43)
+100 1
+
+fl=(1)
+fn=(43)
+101 0
+
+fl=(1)
+fn=(43)
+102 0
+
+fl=(12)
+fn=(44)
+94 50
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 43
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 1
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 0
+
+fl=(1)
+fn=(33)
+19 149
+
+fl=(11)
+fn=(34)
+17 113
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 149
+
+fl=(1)
+fn=(35)
+13 12168
+
+fl=(1)
+fn=(36)
+14 1
+
+fl=(1)
+fn=(37)
+14 1
+
+fl=(11)
+fn=(38)
+10 83
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 262
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 12168
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 1
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 1
+
+fl=(1)
+fn=(39)
+29 0
+
+fl=(1)
+fn=(37)
+31 1
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40)
+26 45
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 1
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 3
+
+fl=(12)
+fn=(32)
+51 12
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 3
+
+fl=(1)
+fn=(41)
+153 2
+
+fl=(12)
+fn=(42)
+149 28
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 15
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 2
+
+fl=(1)
+fn=(43)
+100 0
+
+fl=(1)
+fn=(43)
+101 0
+
+fl=(1)
+fn=(43)
+102 0
+
+fl=(12)
+fn=(44)
+94 52
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 46
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 0
+
+fl=(1)
+fn=(33)
+19 143
+
+fl=(11)
+fn=(34)
+17 116
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 143
+
+fl=(1)
+fn=(35)
+13 11819
+
+fl=(1)
+fn=(36)
+14 0
+
+fl=(1)
+fn=(37)
+14 0
+
+fl=(11)
+fn=(38)
+10 84
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 259
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 11819
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 0
+
+fl=(1)
+fn=(39)
+29 0
+
+fl=(1)
+fn=(37)
+31 1
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40)
+26 37
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 1
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 1
+
+fl=(12)
+fn=(32)
+51 14
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 1
+
+fl=(1)
+fn=(41)
+153 2
+
+fl=(12)
+fn=(42)
+149 32
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 15
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 2
+
+fl=(1)
+fn=(43)
+100 0
+
+fl=(1)
+fn=(43)
+101 1
+
+fl=(1)
+fn=(43)
+102 0
+
+fl=(12)
+fn=(44)
+94 51
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 51
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 1
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 0
+
+fl=(1)
+fn=(33)
+19 142
+
+fl=(11)
+fn=(34)
+17 115
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 142
+
+fl=(1)
+fn=(35)
+13 10334
+
+fl=(1)
+fn=(36)
+14 0
+
+fl=(1)
+fn=(37)
+14 0
+
+fl=(11)
+fn=(38)
+10 65
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 257
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 10334
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 0
+
+fl=(1)
+fn=(39)
+29 1
+
+fl=(1)
+fn=(37)
+31 0
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40)
+26 36
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 1
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 2
+
+fl=(12)
+fn=(32)
+51 11
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 2
+
+fl=(1)
+fn=(41)
+153 0
+
+fl=(12)
+fn=(42)
+149 28
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 14
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 0
+
+fl=(1)
+fn=(43)
+100 0
+
+fl=(1)
+fn=(43)
+101 0
+
+fl=(1)
+fn=(43)
+102 0
+
+fl=(12)
+fn=(44)
+94 51
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 43
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 0
+
+fl=(1)
+fn=(33)
+19 97
+
+fl=(11)
+fn=(34)
+17 77
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 97
+
+fl=(1)
+fn=(35)
+13 11124
+
+fl=(1)
+fn=(36)
+14 0
+
+fl=(1)
+fn=(37)
+14 1
+
+fl=(11)
+fn=(38)
+10 89
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 175
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 11124
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 1
+
+fl=(1)
+fn=(39)
+29 1
+
+fl=(1)
+fn=(37)
+31 0
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40)
+26 37
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 1
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 2
+
+fl=(12)
+fn=(32)
+51 13
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 2
+
+fl=(1)
+fn=(41)
+153 1
+
+fl=(12)
+fn=(42)
+149 28
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 15
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 1
+
+fl=(1)
+fn=(43)
+100 1
+
+fl=(1)
+fn=(43)
+101 0
+
+fl=(1)
+fn=(43)
+102 0
+
+fl=(12)
+fn=(44)
+94 58
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 46
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 1
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 0
+
+fl=(1)
+fn=(33)
+19 140
+
+fl=(11)
+fn=(34)
+17 116
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 140
+
+fl=(1)
+fn=(35)
+13 11646
+
+fl=(1)
+fn=(36)
+14 0
+
+fl=(1)
+fn=(37)
+14 0
+
+fl=(11)
+fn=(38)
+10 87
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 257
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 11646
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 0
+
+fl=(1)
+fn=(39)
+29 1
+
+fl=(1)
+fn=(37)
+31 0
+
+fl=(1)
+fn=(37)
+32 0
+
+fl=(10)
+fn=(40)
+26 38
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+29 1
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+31 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+32 0
+
+fl=(1)
+fn=(31)
+53 1
+
+fl=(12)
+fn=(32)
+51 14
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+53 1
+
+fl=(1)
+fn=(41)
+153 2
+
+fl=(12)
+fn=(42)
+149 29
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+152 15
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+153 2
+
+fl=(1)
+fn=(43)
+100 0
+
+fl=(1)
+fn=(43)
+101 0
+
+fl=(1)
+fn=(43)
+102 0
+
+fl=(12)
+fn=(44)
+94 50
+cfl=(12)
+cfn=(42)
+calls=1 0 0
+96 47
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+100 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+101 0
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+102 0
+
+fl=(12)
+fn=(45) App\Http\Controllers\IPController->find
+61 1919
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 800200
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 41
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 102
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 412285
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 40
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 101
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 218772
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 40
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 99
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 132754
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 39
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 99
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 53678
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 40
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 101
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 27537
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 37
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 95
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 14649
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 40
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 101
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 6310
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 189
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 155
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 10790
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 37
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 97
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 11067
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 44
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 131
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 11479
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 38
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 106
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 12088
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 38
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 97
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 11548
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 38
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 97
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 10526
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 38
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 95
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 12337
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 39
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 97
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 11506
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 39
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 120
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 12058
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 39
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 105
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 10720
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 38
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 96
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 12518
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 47
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 100
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 12164
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 40
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 105
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 10658
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 38
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 97
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 11392
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 40
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 106
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+70 11992
+cfl=(10)
+cfn=(40)
+calls=1 0 0
+70 39
+cfl=(12)
+cfn=(44)
+calls=1 0 0
+72 99
+
+fl=(1)
+fn=(33)
+19 138
+
+fl=(11)
+fn=(34)
+17 117
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+19 138
+
+fl=(1)
+fn=(35)
+13 10990
+
+fl=(1)
+fn=(36)
+14 0
+
+fl=(1)
+fn=(37)
+14 0
+
+fl=(11)
+fn=(38)
+10 97
+cfl=(11)
+cfn=(34)
+calls=1 0 0
+12 255
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+13 10990
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+14 0
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+14 0
+
+fl=(1)
+fn=(39)
+43 1
+
+fl=(1)
+fn=(37)
+45 0
+
+fl=(10)
+fn=(46) App\Http\Controllers\Utility->App\Http\Controllers\{closure}
+44 17
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+45 0
+
+fl=(1)
+fn=(37)
+45 0
+
+fl=(10)
+fn=(46)
+44 10
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+45 0
+
+fl=(1)
+fn=(37)
+45 0
+
+fl=(10)
+fn=(46)
+44 30
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+45 0
+
+fl=(1)
+fn=(37)
+45 0
+
+fl=(10)
+fn=(46)
+44 12
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+45 0
+
+fl=(1)
+fn=(37)
+45 0
+
+fl=(10)
+fn=(46)
+44 11
+cfl=(1)
+cfn=(37)
+calls=1 0 0
+45 0
+
+fl=(1)
+fn=(47) php::array_map
+46 80
+cfl=(10)
+cfn=(46)
+calls=1 0 0
+46 17
+cfl=(10)
+cfn=(46)
+calls=1 0 0
+46 11
+cfl=(10)
+cfn=(46)
+calls=1 0 0
+46 30
+cfl=(10)
+cfn=(46)
+calls=1 0 0
+46 12
+cfl=(10)
+cfn=(46)
+calls=1 0 0
+46 11
+
+fl=(1)
+fn=(48) php::json_encode
+55 4
+
+fl=(10)
+fn=(49) App\Http\Controllers\Utility->formatJSON
+42 97
+cfl=(1)
+cfn=(39)
+calls=1 0 0
+43 1
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+46 164
+cfl=(1)
+cfn=(48)
+calls=1 0 0
+55 4
+
+fl=(13) C:\Users\mohokhaleqi\Dropbox\www\IP-Parser\index.php
+fn=(50) {main}
+
+summary: 1868502
+
+1 1615
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+2 32
+cfl=(9)
+cfn=(22)
+calls=1 0 0
+4 9419
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+10 413
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+10 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+11 416
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+11 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+12 532
+cfl=(12)
+cfn=(29)
+calls=1 0 0
+12 3
+cfl=(12)
+cfn=(29)
+calls=1 0 0
+13 2
+cfl=(12)
+cfn=(30)
+calls=1 0 0
+18 0
+cfl=(12)
+cfn=(32)
+calls=1 0 0
+19 16
+cfl=(12)
+cfn=(45)
+calls=1 0 0
+33 1844435
+cfl=(11)
+cfn=(38)
+calls=1 0 0
+35 11344
+cfl=(10)
+cfn=(49)
+calls=1 0 0
+37 267
+
