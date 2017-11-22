@@ -2,7 +2,7 @@
 
 namespace App;
 
-use PHPUnit_Framework_TestCase as testCase;
+use PHPUnit\Framework\TestCase as testCase;
 
 class CSVDatabaseTest extends TestCase
 {

@@ -3,7 +3,7 @@
 namespace App;
 
 use App\Http\Controllers\Utility;
-use PHPUnit_Framework_TestCase as testCase;
+use PHPUnit\Framework\TestCase as testCase;
 
 class UtilityTest extends TestCase
 {
@@ -37,5 +37,4 @@ class UtilityTest extends TestCase
         $result = $this->utility->formatJSON($input, $ip);
         $this->assertEquals($expected, $result);
     }
-
 }

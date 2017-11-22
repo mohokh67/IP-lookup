@@ -4,7 +4,7 @@ namespace App;
 
 use App\Http\Controllers\IPController;
 use App\Http\Controllers\Utility;
-use PHPUnit_Framework_TestCase as testCase;
+use PHPUnit\Framework\TestCase as testCase;
 
 class IPControllerTest extends TestCase
 {
@@ -42,6 +42,4 @@ class IPControllerTest extends TestCase
         $result = $this->IPController->validate($inputIP);
         $this->assertTrue($result);
     }
-
 }
-
